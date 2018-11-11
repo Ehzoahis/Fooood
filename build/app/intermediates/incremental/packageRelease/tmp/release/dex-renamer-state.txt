@@ -1,0 +1,4 @@
+#Sun Nov 11 05:03:50 CST 2018
+base.0=D\:\\Development\\Android_Projects\\fooood\\build\\app\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

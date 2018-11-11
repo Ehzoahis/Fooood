@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.8.2+3/android/cloud_firestore.iml" filepath="$PROJECT_DIR$/../../../Flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.8.2+3/android/cloud_firestore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.2.5+1/android/firebase_core.iml" filepath="$PROJECT_DIR$/../../../Flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.2.5+1/android/firebase_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-2.0.3/android/firebase_messaging.iml" filepath="$PROJECT_DIR$/../../../Flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-2.0.3/android/firebase_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-0.4.1/android/flutter_local_notifications.iml" filepath="$PROJECT_DIR$/../../../Flutter/.pub-cache/hosted/pub.dartlang.org/flutter_local_notifications-0.4.1/android/flutter_local_notifications.iml" />
+    </modules>
+  </component>
+</project>
