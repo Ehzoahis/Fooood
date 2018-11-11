@@ -48,7 +48,8 @@ class _HomePageState extends State<HomePage> {
         .document(widget.user.email)
         .snapshots()
         .listen((userEventDoc) {
-      String attending = "Active: " + userEventDoc.data["action"] +
+      String attending = "Active: " +
+          userEventDoc.data["action"] +
           " at " +
           userEventDoc.data["location"] +
           " with you: ";
@@ -87,7 +88,18 @@ class _HomePageState extends State<HomePage> {
                 children: <Widget>[
                   Container(
                     padding: EdgeInsets.all(isActive ? 4.0 : 0.0),
-                    child: isActive ? Text(allAttending) : null,
+                    child: isActive
+                        ? Column(children: <Widget>[
+                            Container(
+                              child: Text(
+                                allAttending,
+                                maxLines: null,
+                                softWrap: true,
+                                overflow: TextOverflow.fade,
+                              ),
+                            ),
+                          ])
+                        : null,
                   ),
                   Container(padding: EdgeInsets.all(8.0)),
                   Text("Let's"),
