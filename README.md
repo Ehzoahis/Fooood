@@ -1,8 +1,4 @@
 # fooood
 
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+MadHacks 2018 project
+***NOT FUNCTIONAL *** Cloud Firestore storage already disabled.
